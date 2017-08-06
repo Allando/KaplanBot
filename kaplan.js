@@ -4,7 +4,7 @@ const cmdHandler = require("./Handler/commandHandler.js");
 const TOKEN = "MzQyMzU3NTI3NzY3NTQ3OTA4.DGUjzA.0jARq9uvrfhzoCUT2ZEsYe6liBI"; // CHANGE THIS TO ACTUAL TOKEN!!!
 
 var bot = new Discord.Client();
-var kaplan = "<@342357527767547908>"; // Representation for @KaplanBot
+var kaplan = ""; // Representation for @KaplanBot
 var count = 1;
 
 bot.on("ready", function () {
