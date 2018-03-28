@@ -2,7 +2,9 @@
   "token": "",
   "bot": {
     "plugins": [
-      "plugins.basics"
+      "plugins.basics",
+      "plugins.easter",
+      "plugins.budins"
     ]
   }
 }

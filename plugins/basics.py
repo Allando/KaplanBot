@@ -28,6 +28,26 @@ class BasicPlugin(Plugin):
     def command_hello(self, event):
         event.msg.reply('Hi, this is Jeff from the overwatch team')
 
+
+    @Plugin.command('')
+    def command_empty(self, event):
+        event.msg.reply('You know; you must write a command') 
+
+    #TODO: Integrate neural network
+    """
+    command_goodbot and command_badbot will have purpose with a future neural network integration.
+    
+    Commands are for rating a KaplanBot's previous action.
+    Where giving a bad rating will result in it is less likely for the bot to perform the same action again.
+    """
+    @Plugin.command('Good bot')
+    def command_goodbot(self, event):
+        event.msg.reply('Thank you very much')
+
+    @Plugin.command('Bad bot')
+    def command_badbot(self, event):
+        event.msg.reply('Well, fuck you too', event.user.mention())
+
     # Jokes
     @Plugin.command('Tell a joke')
     def command_random_joke(self, event):
