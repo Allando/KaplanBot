@@ -1,5 +1,5 @@
 {
-  "token": "lalalalala",
+  "token": "",
   "bot": {
     "plugins": [
       "plugins.basics",
