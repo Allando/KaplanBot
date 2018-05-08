@@ -46,7 +46,7 @@ class BasicPlugin(Plugin):
 
     @Plugin.command('Bad bot')
     def command_badbot(self, event):
-        event.msg.reply('Well, fuck you too', event.user.mention())
+        event.msg.reply('Well, fuck you too')
 
     # Jokes
     @Plugin.command('Tell a joke')
