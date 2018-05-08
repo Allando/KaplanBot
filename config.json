@@ -1,10 +1,10 @@
 {
-  "token": "",
+  "token": "lalalalala",
   "bot": {
     "plugins": [
       "plugins.basics",
       "plugins.easter",
-      "plugins.budins"
+      "plugins.buttIns"
     ]
   }
 }
