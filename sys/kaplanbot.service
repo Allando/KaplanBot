@@ -1,0 +1,9 @@
+[Unit]
+Description=KaplanBots execution at startup
+
+[Service]
+ExecStart=/usr/bin/KaplanBot.sh
+
+[Install]
+WantedBy=multi-user.target
+

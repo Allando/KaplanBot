@@ -28,7 +28,6 @@ class BasicPlugin(Plugin):
     def command_hello(self, event):
         event.msg.reply('Hi, this is Jeff from the overwatch team')
 
-
     @Plugin.command('')
     def command_empty(self, event):
         event.msg.reply('You know; you must write a command') 
