@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mv kaplanbot.sh /usr/bin/kaplanbot
-mv kaplanbot.service /etc/systemd/system/kaplanbot.service
+cp kaplanbot.sh /usr/bin/kaplanbot.sh
+cp kaplanbot.service /etc/systemd/system/kaplanbot.service
