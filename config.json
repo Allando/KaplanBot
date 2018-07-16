@@ -4,7 +4,8 @@
     "plugins": [
       "plugins.basics",
       "plugins.easter",
-      "plugins.buttIns"
+      "plugins.buttIns",
+      "plugins.jokes"
     ]
   }
 }
