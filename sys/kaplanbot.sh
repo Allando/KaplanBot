@@ -1,6 +1,8 @@
 set -e
 
-cd /home/pi//Projects/Repositories/KaplanBot
+sleep 1m
+
+cd /usr/share/kaplanbot/
 
 python3 -m disco.cli --run-bot
 
