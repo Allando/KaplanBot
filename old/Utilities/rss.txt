@@ -1,6 +1,0 @@
-<outline
-text="PlayOverwatch"
-title="PlayOverwatch"
-type="rss"
-xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClOf1XXinvZsy4wKPAkro2A"
-/>
