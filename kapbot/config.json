@@ -1,0 +1,10 @@
+{
+  "token": "",
+  "bot": {
+    "plugins": [
+      "plugins.basics",
+      "plugins.easter",
+      "plugins.buttIns"
+    ]
+  }
+}
