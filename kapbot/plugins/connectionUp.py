@@ -5,18 +5,18 @@ import os
 
 # Third-party library
 from disco.bot import Plugin
-from disco.gateway import GatewayClient
+ from disco.gateway.client import GatewayClient
 
-class Connection(Plugin):
+class Connection(Plugin, GatewayClient):
     def listenForConnection(self, event):
         startUpLock = False
 
         while startUpLock is False:
             if GatewayClient.handle_hello():
                 startUpLock = True
-                tatterTale()
+                tattleTale()
 
-    def tatterTale(self):
+    def tattleTale(self):
         host_os = os.name
         host_user = ""
 
