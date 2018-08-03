@@ -6,16 +6,17 @@ import os
 # Third-party library
 from disco.bot import Plugin
 from disco.gateway import GatewayClient
-from disco.util.logging import LoggingClass 
 
-class ConnectionUp(Plugin):
-    def main(self, event):
+class Connection(Plugin):
+    def listenForConnection(self, event):
+        startUpLock = False
+
         while startUpLock is False:
-            event.reply("")
-            startUpLock = True
+            if GatewayClient.handle_hello():
+                startUpLock = True
+                tatterTale()
 
     def tatterTale(self):
-        startUpLock = False
         host_os = os.name
         host_user = ""
 
@@ -25,5 +26,6 @@ class ConnectionUp(Plugin):
             host_os = os.system("uname -a")
             host_user = os.system("whoami")
 
-    def listenForConnection(self):
-        pass
+    
+
+        
