@@ -8,7 +8,7 @@ from disco.bot import Plugin
 from disco.util.logging import LoggingClass
 
 class Connection(Plugin):
-    @
+    @Plugin.command("j")
     def listenForConnection(self, event):
         startUpLock = False
 
@@ -17,8 +17,9 @@ class Connection(Plugin):
                 startUpLock = True
                 tattleTale()
 
+    @Plugin.command("h")
     def tattleTale(self, event):
-        host_os = os.name
+        host_os = os.name()
         host_user = ""
 
         host_sys_time = datetime.datetime.now()
@@ -28,9 +29,9 @@ class Connection(Plugin):
             host_user = os.system("whoami")
 
 
-        event.reply(host_os)
-        event.reply(host_user)
-        event.reply(host_sys_time)
+            event.msg.reply(host_os)
+            event.msg.reply(host_user)
+            event.msg.reply(host_sys_time)
 
     
 
