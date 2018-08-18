@@ -1,0 +1,45 @@
+System time: 2018-08-17 22:47:43.227304
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-17 23:31:55.475655
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 01:58:10.144035
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:00:08.398571
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:01:47.338729
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:02:33.942152
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:03:39.838147
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:04:24.266047
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:04:48.145737
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:05:26.287672
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:07:23.664865
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:07:50.918339
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:08:44.197853
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:09:41.443897
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
+System time: 2018-08-18 02:10:49.030625
+Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
+--------------------------------------------------
