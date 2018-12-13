@@ -105,3 +105,6 @@ venv.bak/
 
 # No share token key
 config.json
+
+# Do not save that token
+token.txt

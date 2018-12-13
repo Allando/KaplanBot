@@ -43,3 +43,39 @@ Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-M
 System time: 2018-08-18 02:10:49.030625
 Uname: posix.uname_result(sysname='Linux', nodename='Pupa', release='4.14.60-1-MANJARO', version='#1 SMP PREEMPT Fri Aug 3 12:49:45 UTC 2018', machine='x86_64')
 --------------------------------------------------
+System time: 2018-12-11 22:34:32.788811
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-11 22:39:52.163407
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-11 22:40:22.024798
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-11 22:42:42.388248
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-11 22:45:03.035892
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-11 22:45:59.589904
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:12:20.880738
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:13:52.263463
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:17:07.389883
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:55:15.767347
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:55:47.739423
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
+System time: 2018-12-12 20:57:12.942940
+Uname: posix.uname_result(sysname='Linux', nodename='DiscordBot', release='4.9.0-8-amd64', version='#1 SMP Debian 4.9.130-2 (2018-10-27)', machine='x86_64')
+--------------------------------------------------
