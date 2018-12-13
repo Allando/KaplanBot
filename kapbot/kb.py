@@ -47,9 +47,11 @@ async def on_ready():
 @client.event
 async def on_message(message):
 	if message.content.startswith('!hello'):
+		print("Hello")
 		await client.send_message(message.channel,"Hi, this is Jeff from the Overwatch team")
 
 	elif message.content.startswith('!joke'):
+		print("Joke")
 		jokes.tell_joke()
 
 	elif message.content.startswith('KaplanBot') or message.content.startswith('Kaplan'):
@@ -101,9 +103,11 @@ async def on_message(message):
 			print("Kaplan lottery: FAILED!")
 
 	elif message.content.startswith('Hacker') or message.content.startswith('hacking'):
+		print("Hacker Easteregg")
 		await client.send_message(message.channel,"@everyone\nUh oh, looks like KaplanBot got compromised!\nOh TheIppo1000, you dummy, putting servers at risk and everything, classic!\nLooks like our buddy here will have to shoot itself in the face.\nOh well, everyone wave KaplanBot a goodbye, you will be missed! (most likely not)")
 
 	elif message.content.startswith('Overwatch?') or message.content.startswith('OW?'):
+		print("Overwatch")
 		await client.send_message(message.channel,"Me too pls")
 
 	elif message.content.startswith('!remindme') or message.content.startswith('!rme'):
@@ -111,6 +115,7 @@ async def on_message(message):
 		# Remind me
 
 	elif message.content.startswith('!help') or message.content.startswith('!h'):
+		print("HELP")
 		help_msg = ""
 		help_msg = help_msg(message)
 		await client.send_message(message.channel, help_msg)
