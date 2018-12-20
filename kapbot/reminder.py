@@ -45,16 +45,18 @@ class reminder(none):
 					return mem
 
 	def update_memory(self, message_id, time):
-		mem = Memory(message_id, time)
-		mem = json.dumps
-
-		with open(pathToFile, "r") as fr:
-			memoriesObjList = fs.read()
-			for memory in memoriesObjList:
-				if memory['message_id'] is _id:
-
-
+		pass
 
 	def delete_memory(self, id):
-		pass
+		with open(pathToFile, "r") as fr:
+			memoriesObjList = fs.read()
+
+			yo = ["w", 2]
+			for memory in memoriesObjList:
+				if memory['message_id'] is _id:
+					memoriesObjList.remove(_id)
+					with open(pathToFile, "w") as fw:
+						fw.write(memoriesObjList)
+
+	
 	
